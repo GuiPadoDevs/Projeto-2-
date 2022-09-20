@@ -1,0 +1,101 @@
+@font-face{ 
+	font-family: 'DotGothic16';
+	src: url('../fonts/DotGothic16-Regular.woff');
+}
+
+@font-face{ 
+	font-family: 'AmaticSC';                    /*Lembra letra escrita a mão*/
+	src: url('../fonts/AmaticSC-Regular.woff');
+}
+
+@font-face{ 
+	font-family: 'Caveat';                      /*Lembra letra escrita a mão*/
+	src: url('../fonts/Caveat-VariableFont_wght.woff');
+}
+
+@font-face{ 
+	font-family: 'Rajdhani';                    /*Lembra letra escrita formal*/
+	src: url('../fonts/Rajdhani-Light.woff');
+}
+
+footer {
+    padding: 50px 0;
+    background: linear-gradient(#4876FF, #00004e);
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+#img-comeco {
+    height: 150px;
+    margin: 30px 0;
+}
+
+#footer-whats {
+    height: 40px;
+    margin: 40px 0;
+}
+
+footer p {
+    font-family: 'Caveat';
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+footer span {
+    font-family: 'Rajdhani';
+}
+
+footer span:hover {
+    border-radius: 20px;
+    transition: 0.8s ease-in-out;
+    background: #8DB6CD;
+    color: black;
+}
+
+footer form {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer input, footer textarea {
+    font-family: 'AmaticSC';
+    font-size: 20px;
+    border: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 100%;
+    display: block;
+
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.25);
+}
+
+footer textarea:focus {
+    transition: 0.5s ease-in-out;
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+footer input:focus {
+    transition: 0.5s ease-in-out;
+    box-shadow: inset 1px 4px 7px rgba(0, 0, 0, 0.5);
+}
+
+footer input:hover {
+    transition: 0.5s ease-in-out;
+    background: #8DB6CD;
+    color: #ffffff;
+}
+
+footer textarea:hover {
+    transition: 0.5s ease-in-out;
+    background: #8DB6CD;
+    color: #ffffff;
+}
+
+footer .detail {
+    font-weight: bold;
+}

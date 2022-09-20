@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Contato</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="stylesheet" href="CSS/styles_contato.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 700 & display = swap "rel =" stylesheet">
+</head>
+<body>
+    <footer id="footer">
+        <h2>Me mande uma mensagem!!</h2>
+        <p>Caso queira entrar em contato sobre algum projeto, basta me mandar uma mensagem aqui em baixo !!! </p>
+        <img id="img-comeco" src="img/imagem2.png" width="150px" alt="Mão para baixo">
+        <form class="form" action="./email.php" method="POST">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+
+        <p>Ou se preferir me envie uma mensagem no meu whatsapp!</p>
+        <p>
+            Para isso só clicar no ícone ao lado
+
+            <a id="footer-whats" href="http://wa.me/+5514998516587"
+                style="background: green;
+                color: white;
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 5px;"
+                title="Converse comigo por aqui">
+        
+                <img src="img/whats.png" style="width: 20px" />    
+                Me envie um Zap
+            </a>
+            
+        </p>
+    </footer> 
+    <!-- footer fim -->
+</body>
+</html>

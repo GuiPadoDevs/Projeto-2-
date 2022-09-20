@@ -1,0 +1,106 @@
+@font-face{ 
+	font-family: 'DotGothic16';
+	src: url('../fonts/DotGothic16-Regular.woff');
+}
+
+@font-face{ 
+	font-family: 'AmaticSC';                    /*Lembra letra escrita a mão*/
+	src: url('../fonts/AmaticSC-Regular.woff');
+}
+
+@font-face{ 
+	font-family: 'Caveat';                      /*Lembra letra escrita a mão*/
+	src: url('../fonts/Caveat-VariableFont_wght.woff');
+}
+
+@font-face{ 
+	font-family: 'Rajdhani';                    /*Lembra letra escrita formal*/
+	src: url('../fonts/Rajdhani-Light.woff');
+}
+
+/* navbar */
+#navbar {
+    background-color: rgb(76, 76, 241);
+    color: #FFF;
+    padding: 0 15px;
+    height: 100%;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+    font-family: 'DotGothic16';
+    display: inline-block;
+    line-height: center;
+}
+
+#navbar h2 {
+    font-family: 'DotGothic16';
+    font-size: 30px;
+    margin: 0;
+    line-height: center;
+    margin-left: center;
+}
+
+#navbar img {
+    height: 40px;
+    position: absolute;
+    top: 10px;
+}
+
+#navbar nav{
+    float: right;
+}
+
+#navbar ul {
+    margin-top: 22px;
+}
+
+#navbar li {
+    margin: 0 10px;
+}
+
+#navbar-list li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#navbar-list li a:hover {
+    border-radius: 10px;
+    transition: 0.7s ease-in-out;
+    background: #8DB6CD;
+    color: #000;
+}
+
+/* banner */
+#main-banner {
+    height: 80vh;
+    background-image: url('../img/fundoProjetos.jpg');
+    background-size: cover;
+    padding-top: 15vh;
+    
+}
+
+#banner-info h1 {
+    font-family: 'Rajdhani';
+}
+
+#banner-info {
+    width: 40%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    
+}
+
+#banner-info img{
+    height: 60px;
+    border-radius: 25%;
+}
+
+#banner-info p{
+    background-color: rgb(76, 76, 241);
+    font-weight: bold;
+    width: 140px;
+    margin-right: auto;
+    margin-left: auto;
+}
